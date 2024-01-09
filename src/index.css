@@ -1,0 +1,28 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'Bangers';
+    src: url('/path/to/your/font/Bangers-Regular.ttf') format('truetype');
+  }
+
+html{
+  background-color: #f5f5f5;
+  scroll-behavior: inherit;
+}
+
+  @layer base {
+    .titulo {
+      @apply font-bangers tracking-widest whitespace-nowrap overflow-hidden border-r-2;
+      border-color: currentColor;
+      animation: typing 1s steps(40) 1s 1 normal both, blink 1s 3 steps(1);
+    }
+  
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+  }
+
+
