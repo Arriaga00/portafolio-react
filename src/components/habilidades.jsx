@@ -23,7 +23,7 @@ import Separador from "./separador"
             <div className="flex items-center bg-[#f5f5f5] text-[#414855] border-2 border-[#] text-sm font-bold px-4 py-2 rounded-full"> Diseño web</div>
             <div className="flex items-center bg-[#f5f5f5] text-[#414855] border-2 border-[#] text-sm font-bold px-4 py-2 rounded-full"> Trabajo en equipo</div>
             <div className="flex items-center bg-[#f5f5f5] text-[#414855] border-2 border-[#edc748] text-sm font-bold px-4 py-2 rounded-full"> APIs</div>
-            <div className="flex items-center bg-[#f5f5f5] text-[#414855] border-2 border-[#edc748] text-sm font-bold px-4 py-2 rounded-full"> API Rest</div>
+            <div className="flex items-center bg-[#f5f5f5] text-[#414855] border-2 border-[#b2afbe] text-sm font-bold px-4 py-2 rounded-full"> API Rest</div>
             <div className="flex items-center bg-[#f5f5f5] text-[#414855] border-2 border-[#] text-sm font-bold px-4 py-2 rounded-full"> Herramientas de interaccion</div>
             <div className="flex items-center bg-[#f5f5f5] text-[#414855] border-2 border-[#] text-sm font-bold px-4 py-2 rounded-full"> Diseño web</div>
             <div className="flex items-center bg-[#f5f5f5] text-[#414855] border-2 border-[#] text-sm font-bold px-4 py-2 rounded-full"> Diseño web</div>

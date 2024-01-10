@@ -5,14 +5,7 @@ import RedesSociales from './components/redesSociales'
 import Proyectos from './components/proyectos'
 import Habilidades from './components/habilidades'
 import Academico from './components/academico'
-
-
-
-
-
-
-
-
+import Contacto from './components/contacto'
 
 
 
@@ -26,6 +19,7 @@ function App() {
     <Proyectos/>
     <Habilidades/>
     <Academico/>
+    <Contacto/>
     </>
   )
 }
