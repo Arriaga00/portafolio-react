@@ -33,7 +33,7 @@ const Contacto = () => {
               <div className="relative mt-5 mb-4">
                 <textarea id="message" name="message" placeholder="mensaje" className="w-full bg-[#f5f5f5] rounded border border-gray-400 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
               </div>
-              <button className="text-white bg-[#30be93] py-2 px-6   rounded-full w-2/3 hover:scale-105 text-lg transition ease-in-out duration-300 font-bold">Enviar</button>
+              <button className="text-white bg-[#30bf93] py-2 px-6   rounded-full w-2/3 hover:scale-105 text-lg transition ease-in-out duration-300 font-bold">Enviar</button>
               <p className="text-xs text-gray-500 mt-3">Si tienes dudas, este es el mejor momento de preguntar <br /> Enviame un mail ✅.</p>
             </form>
           </div>

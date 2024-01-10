@@ -1,4 +1,4 @@
-const DetalleAcademico = ({titulo,descripcion, tiempo}) => {
+const DetalleAcademico = ({titulo,descripcion, tiempo, color}) => {
     return (
       <>
         <div className="space-y-4 ">
@@ -9,7 +9,7 @@ const DetalleAcademico = ({titulo,descripcion, tiempo}) => {
             >
               {titulo}
             </summary>
-            <time className="text-xs tracki uppercase dark:text-gray-400">{tiempo}</time>
+            <time className={color}>{tiempo}</time>
             <p className="px-4 py-6 pt-3 ml-4 -mt-4 ">
               {descripcion}
             </p>
