@@ -26,3 +26,23 @@ html{
   }
 
 
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(31, 180, 255, 0.7);
+    }
+    
+    70% {
+      transform: scale(1.1);
+      box-shadow: 0 0 0 10px rgba(31, 180, 255, 0);
+    }
+    
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(31, 180, 255, 0);
+    }
+  }
+
+  .pulsing-dot::before {
+    animation: pulse 2s infinite;
+  }

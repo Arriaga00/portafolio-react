@@ -6,7 +6,7 @@ import Separador from "./separador"
     <>
         <Separador name={'Habilidades y Conocimiento'}/>
         {/* ***************Pildoras********************* */}
-        <div className="flex space-x-4 pl-4 p-x-5 flex-wrap gap-y-3">
+        <div className="flex space-x-4 pl-4 p-x-5 flex-wrap gap-y-3 mb-10">
             <div className="flex items-center bg-[#f5f5f5] text-[#414855] border-2 border-[#5c92e5] text-sm font-bold px-4 py-2 rounded-full"> Css</div>
             <div className="flex items-center bg-[#f5f5f5] text-[#414855] border-2 border-[#a6e6f3] text-sm font-bold px-4 py-2 rounded-full"> React</div>
             <div className="flex items-center bg-[#f5f5f5] text-[#414855] border-2 border-[#c1d591] text-sm font-bold px-4 py-2 rounded-full"> Node js</div>
