@@ -7,7 +7,7 @@ const Contacto = () => {
       <section className="text-gray-600 body-font relative">
         <div className="container px-5 py-14 mx-auto flex sm:flex-nowrap flex-wrap">
           <div className="lg:w-2/3 md:w-1/2 border-2 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-            <iframe width="100%" height="100%" className="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.270407552197!2d-75.63909782432118!3d6.094232028001477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e46870e492f78a7%3A0x3b8342986d529b2a!2sMontpellier%20Plaza!5e0!3m2!1ses!2sco!4v1704924623206!5m2!1ses!2sco" style={{filter: "  opacity(0.5)"}}></iframe>
+            <iframe width="100%" height="100%" className="absolute inset-0"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.270407552197!2d-75.63909782432118!3d6.094232028001477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e46870e492f78a7%3A0x3b8342986d529b2a!2sMontpellier%20Plaza!5e0!3m2!1ses!2sco!4v1704924623206!5m2!1ses!2sco" style={{filter: "  opacity(0.5)"}}></iframe>
             <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
               <div className="lg:w-1/2 px-6">
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">Direccion</h2>
