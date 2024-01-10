@@ -51,7 +51,8 @@ export const Proyectos = () => {
             <h3 className="text-gray-500 mb-3">Designer</h3>
             <p className="mb-4">Creando una interfaz simulada de una cartelera de cine 🎥.. 
             <br /> Consumo de Api Disney
-            <br />
+            <br /> ...
+            
             </p>
             <span className="inline-flex">
             <FontAwesomeIcon icon={faReact} className='text-[#93e8f5] w-5 h-5'/>

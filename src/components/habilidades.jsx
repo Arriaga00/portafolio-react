@@ -6,8 +6,7 @@ import Separador from "./separador"
     <>
         <Separador name={'Habilidades y Conocimiento'}/>
         {/* ***************Pildoras********************* */}
-        <div className="flex space-x-4 pl-4 p-x-5 pb-40 flex-wrap gap-y-3">
-            <div className="flex items-center bg-[#f5f5f5] text-[#414855] border-2 border-[#f2d76f] text-sm font-bold px-4 py-2 rounded-full"> JavaScritp</div>
+        <div className="flex space-x-4 pl-4 p-x-5 flex-wrap gap-y-3">
             <div className="flex items-center bg-[#f5f5f5] text-[#414855] border-2 border-[#5c92e5] text-sm font-bold px-4 py-2 rounded-full"> Css</div>
             <div className="flex items-center bg-[#f5f5f5] text-[#414855] border-2 border-[#a6e6f3] text-sm font-bold px-4 py-2 rounded-full"> React</div>
             <div className="flex items-center bg-[#f5f5f5] text-[#414855] border-2 border-[#c1d591] text-sm font-bold px-4 py-2 rounded-full"> Node js</div>
@@ -19,6 +18,7 @@ import Separador from "./separador"
             <div className="flex items-center bg-[#f5f5f5] text-[#414855] border-2 border-[#193f74] text-sm font-bold px-4 py-2 rounded-full"> JQuery</div>
             <div className="flex items-center bg-[#f5f5f5] text-[#414855] border-2 border-[#] text-sm font-bold px-4 py-2 rounded-full"> Autoconfianza</div>
             <div className="flex items-center bg-[#f5f5f5] text-[#414855] border-2 border-[#] text-sm font-bold px-4 py-2 rounded-full"> Creatividad</div>
+            <div className="flex items-center bg-[#f5f5f5] text-[#414855] border-2 border-[#f2d76f] text-sm font-bold px-4 py-2 rounded-full"> JavaScritp</div>
             <div className="flex items-center bg-[#f5f5f5] text-[#414855] border-2 border-[#] text-sm font-bold px-4 py-2 rounded-full"> Estructura de contenido</div>
             <div className="flex items-center bg-[#f5f5f5] text-[#414855] border-2 border-[#] text-sm font-bold px-4 py-2 rounded-full"> Diseño web</div>
             <div className="flex items-center bg-[#f5f5f5] text-[#414855] border-2 border-[#] text-sm font-bold px-4 py-2 rounded-full"> Trabajo en equipo</div>
