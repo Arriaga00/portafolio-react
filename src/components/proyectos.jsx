@@ -20,15 +20,15 @@ export const Proyectos = () => {
   <div className="container px-5 py-5 mx-auto mb-10">
     <div className="flex flex-wrap -m-4 gap-x-5 gap-y-5 justify-center">
         {/* Card primer portafolio*/}
-      <div className="p-4 lg:w-2/5 border-2 border-[#d2d5da] rounded-lg m-1 hover:scale-105 transition ease-in-out duration-200 ">
+      <div className="p-4 lg:w-2/5 border-2 border-[#d2d5da] dark:border-[#26304b] rounded-lg m-1 hover:scale-105 transition ease-in-out duration-200 ">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
         <a href="https://portafolioarriaga.vercel.app/" className='flex-shrink-0  w-48 h-48 sm:mb-0 mb-4 cursor-pointer'>
                 <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={PrimerPortafolio} />
         </a>
           <div className="flex-grow sm:pl-8">
-            <h2 className="title-font font-medium text-lg text-gray-900 font-bold ">Primer Portafolio 📃</h2>
-            <h3 className="text-gray-500 mb-3">UI Developer</h3>
-            <p className="mb-4">Es el primer portafolio que decidi a realizar para aventarme a este mundo de la programacion.</p>
+            <h2 className="title-font font-medium text-lg text-gray-900 font-bold dark:text-[#eaebf1]">Primer Portafolio 📃</h2>
+            <h3 className="text-gray-500 mb-3 dark:text-[#eaebf1]">UI Developer</h3>
+            <p className="mb-4 dark:text-[#eaebf1]">Es el primer portafolio que decidi a realizar para aventarme a este mundo de la programacion.</p>
             <span className="inline-flex">
                 {/* iconos tecnologia */}
                 <FontAwesomeIcon icon={faJs} className='text-[#f8d65b] w-5 h-5' />
@@ -47,9 +47,9 @@ export const Proyectos = () => {
                 <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={Cine} />
             </a>
           <div className="flex-grow sm:pl-8">
-            <h2 className="title-font font-medium text-lg text-gray-900 font-bold ">My Cine</h2>
-            <h3 className="text-gray-500 mb-3">Designer</h3>
-            <p className="mb-4">Creando una interfaz simulada de una cartelera de cine 🎥.. 
+            <h2 className="title-font font-medium text-lg text-gray-900 font-bold dark:text-[#eaebf1]">My Cine</h2>
+            <h3 className="text-gray-500 mb-3 dark:text-[#eaebf1]">Designer</h3>
+            <p className="mb-4 dark:text-[#eaebf1]">Creando una interfaz simulada de una cartelera de cine 🎥.. 
             <br /> Consumo de Api Disney
             <br /> ...
             
