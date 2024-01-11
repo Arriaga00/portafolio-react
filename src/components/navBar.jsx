@@ -1,6 +1,6 @@
 
 
-function NavBar(){
+function NavBar({setAbrirModal}){
   const colorYHover = "mr-5 text-black font-semibold cursor-pointer border-solid border-transparent hover:text-[#cf5d57] hover:text-red-500 hover:border-b-2 hover:border-red-500 hover:-translate-y-1 transition ease-in-out duration-200"
     return (
       <>
@@ -10,7 +10,7 @@ function NavBar(){
                   <span className=" text-3xl titulo ">Portafol <span className="text-[#c25f94]">!</span> o </span>
                 </a>
                   <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                    <a className={colorYHover}>Acerca de mi</a>
+                    <a className={colorYHover} onClick={()=> setAbrirModal(true)}>Acerca de mi</a>
                     <a className={colorYHover}>Proyectos</a>
                     <a className={colorYHover}>Servicios</a>
                     <a className={colorYHover}>Contactame</a>
