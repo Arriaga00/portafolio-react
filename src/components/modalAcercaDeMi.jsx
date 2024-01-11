@@ -21,7 +21,7 @@ const ModalAcercaDeMi = ({abrirModal,setAbrirModal}) => {
     { isVisible && (
       <div className="fixed inset-0 flex items-center justify-center z-50 transition-opacity duration-500 ease-in-out">
         <div className="absolute inset-0 bg-black opacity-50 transition-opacity duration-500 ease-in-out"></div>
-        <div className={`relative flex flex-col items-center max-w-lg gap-4 p-4 sm:p-6 rounded-md shadow-md transition-transform duration-500 ease-in-out transform ${modalClass} sm:py-8 sm:px-12 bg-[#f5f5f5] sm:w-3/4 sm:max-w-md`}>
+        <div className={`relative dark:bg-[#26304b] flex flex-col items-center max-w-lg gap-4 p-4 sm:p-6 rounded-md shadow-md transition-transform duration-500 ease-in-out transform ${modalClass} sm:py-8 sm:px-12 bg-[#f5f5f5] sm:w-3/4 sm:max-w-md`}>
           <button className="absolute top-1 right-1 sm:top-2 sm:right-2" onClick={()=> setAbrirModal(false)}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +36,7 @@ const ModalAcercaDeMi = ({abrirModal,setAbrirModal}) => {
           <h2 className="text-2xl font-bold leadi tracki">
             Acerca de mi.
           </h2>
-          <p className="flex-1 text-start ">
+          <p className="flex-1 text-start dark:text-[#eaebf1]">
           Soy una persona apasionada por la tecnología desde que tenía 18 años. Actualmente tengo 23 años y estoy estudiando análisis y desarrollo de software en el Sena, una institución que ofrece programas de formación técnica y tecnológica. Me gusta aprender y escuchar a las personas que han logrado lo que yo quiero: ser un buen programador y poder ayudar a otras personas con mi conocimiento. Además de la tecnología, me interesa la información sobre finanzas y hago ejercicio para mantenerme en forma. Tengo expectativas muy altas y estoy dispuesto a trabajar de la mano contigo para alcanzarlas.
           </p>
           <a

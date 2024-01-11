@@ -25,7 +25,7 @@ const Pie = () => {
             <div>
               <div className="flex justify-center text-teal-600 lg:justify-start">
                 <svg
-                  className="h-8"
+                  className="h-8 dark:text-[#e4b842]"
                   viewBox="0 0 118 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"

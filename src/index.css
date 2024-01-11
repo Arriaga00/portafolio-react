@@ -52,6 +52,6 @@ html{
 
   @media (min-width: 640px) {
     .pulsing-dot::before {
-      animation: pulse 2s infinite;
+      animation: pulse 1s infinite;
     }
   }

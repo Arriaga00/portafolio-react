@@ -8,7 +8,7 @@ function Perfil(){
           <img className="lg:w-2/6 md:w-3/6 w-5/6 mb-0 object-cover object-center rounded" alt="andres" src={Foto} />
           <div className="w-full md:w-2/3 flex flex-col mb-5 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 dark:text-[#f5f5f5]">Andres Felipe Arriaga Molano</h1>
-            <p className="text-black pb-2 font-bold text-lg "> <span className='text-[#f26c64]'> Front end</span> | <span className='text-[#edb614]'>Developer</span></p>
+            <p className="text-black pb-2 font-bold text-lg dark:text-[#eaebf1] "> <span className='text-[#f26c64]'> Front end</span> | <span className='text-[#edb614]'>Developer</span></p>
             <p className="mb-3 leading-relaxed text-[#24282f] dark:text-[#f5f5f5] "> Mi misión es utilizar mis habilidades técnicas y creatividad para desarrollar soluciones web innovadoras que impulsen el crecimiento y el éxito de las empresas.</p>
           </div>
         </div>
