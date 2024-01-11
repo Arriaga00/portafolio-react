@@ -42,18 +42,18 @@ const ModalAcercaDeMi = ({ abrirModal, setAbrirModal }) => {
             <span>
               <img src={Acerca} alt="emoji" className="w-36 h-40" />
             </span>
-            <h2 className="text-2xl font-bold leadi tracki text-red-600">Acerca de mi.</h2>
+            <h2 className="text-2xl font-bold leadi tracki text-red-600">
+              Acerca de mi.
+            </h2>
             <p className="flex-1 text-start dark:text-[#eaebf1]">
-              Soy una persona apasionada por la tecnología desde que tenía 18
-              años. Actualmente tengo 23 años y estoy estudiando análisis y
-              desarrollo de software en el Sena, una institución que ofrece
-              programas de formación técnica y tecnológica. Me gusta aprender y
-              escuchar a las personas que han logrado lo que yo quiero: ser un
-              buen programador y poder ayudar a otras personas con mi
-              conocimiento. Además de la tecnología, me interesa la información
-              sobre finanzas y hago ejercicio para mantenerme en forma. Tengo
-              expectativas muy altas y estoy dispuesto a trabajar de la mano
-              contigo para alcanzarlas.
+              Soy apasionado por la tecnología desde que tenía 18 años.
+              Actualmente tengo 23 años y estoy estudiando análisis y desarrollo
+              de software en el Sena, una institución que ofrece programas de
+              formación técnica y tecnológica. Me gusta aprender y escuchar a
+              las personas que han logrado lo que yo quiero ser. Un buen
+              programador y poder ayudar a personas con mi conocimiento. <br />{" "}
+              Tengo expectativas muy altas y estoy dispuesto a trabajar de la
+              mano contigo para alcanzarlas.
             </p>
             <div
               role="list"
@@ -67,14 +67,13 @@ const ModalAcercaDeMi = ({ abrirModal, setAbrirModal }) => {
                     aria-hidden="true"
                   />
                   <div className="ml-4 flex min-w-0 flex-1 gap-2">
-                    <span className="truncate font-medium">
-                      Cv.pdf
-                    </span>
+                    <span className="truncate font-medium">Cv.pdf</span>
                     <span className="flex-shrink-0 text-gray-400">111 KB</span>
                   </div>
                 </div>
                 <div className="ml-4 flex-shrink-0">
-                  <a href={Cv}
+                  <a
+                    href={Cv}
                     download
                     className="font-medium  hover:text-[#5ab28e] cursor-pointer text-[#82ffcb]"
                   >
