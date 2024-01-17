@@ -42,18 +42,18 @@ const ModalAcercaDeMi = ({ abrirModal, setAbrirModal }) => {
             <span>
               <img src={Acerca} alt="emoji" className="w-36 h-40" />
             </span>
-            <h2 className="text-2xl font-bold leadi tracki text-red-600">
+            <h2 className="text-2xl font-bold leadi tracki text-red-600 border-b-4  border-red-600">
               Acerca de mi.
             </h2>
             <p className="flex-1 text-start dark:text-[#eaebf1]">
               Soy apasionado por la tecnología desde que tenía 18 años.
-              Actualmente tengo 23 años y estoy estudiando análisis y desarrollo
+              Actualmente tengo 23 años y estoy estudiando  análisis y desarrollo
               de software en el Sena, una institución que ofrece programas de
               formación técnica y tecnológica. Me gusta aprender y escuchar a
               las personas que han logrado lo que yo quiero ser. Un buen
-              programador y poder ayudar a personas con mi conocimiento. <br />{" "}
-              Tengo expectativas muy altas y estoy dispuesto a trabajar de la
-              mano contigo para alcanzarlas.
+              programador y poder ayudar a personas con mi conocimiento. 
+              <br />
+              <br />
             </p>
             <div
               role="list"
@@ -75,7 +75,7 @@ const ModalAcercaDeMi = ({ abrirModal, setAbrirModal }) => {
                   <a
                     href={Cv}
                     download
-                    className="font-medium  hover:text-[#5ab28e] cursor-pointer text-[#82ffcb]"
+                    className="font-medium  hover:text-[#5ab28e] cursor-pointer text-[#5ab28e] dark:text-[#82ffcb]"
                   >
                     Download
                   </a>

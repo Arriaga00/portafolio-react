@@ -4,7 +4,7 @@ import { FaLinkedin , FaSquareWhatsapp} from "react-icons/fa6";
 const btn = 'bg-gray-200 inline-flex py-3 px-4 rounded-lg items-center  md:ml-0 ml-4 md:mt-4 mt-0 lg:mt-0 hover:bg-gray-300 focus:outline-none transition ease-in-out duration-300 w-36 m-0 dark:bg-[#26304b] dark:hover:bg-[#a0a1a5]'
 function RedesSociales(){
     return (
-        <section className="mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center mx-12 ">
+        <section className=" flex flex-wrap p-5 flex-col md:flex-row items-center mx-12 ">
         <div className="flex justify-center content-center flex-wrap gap-x-5 gap-y-2  w-full">
         <button className={btn}>
             <FaFacebookSquare className="text-4xl text-[#3f87f5] " />

@@ -22,7 +22,7 @@ const Contacto = () => {
             </div>
           </div>
           <div className="lg:w-1/3 md:w-1/2 bg-[#f5f5f5] flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 dark:bg-[#131825]">
-            <h2 className="text-[#e27469] text-2xl mb-1 font-medium title-font font-extrabold ">Contactame</h2>
+            <h2 className="text-[#e27469] text-2xl mb-1 fontMedium title-font font-extrabold ">Contactame</h2>
             <form action="">
               <div className="relative mt-5 mb-4">
                 <input type="text" id="name" name="name" placeholder="nombre y apellido" className="w-full bg-[#f5f5f5] dark:border-[#26304b] dark:bg-[#131825] rounded border border-gray-400 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out " />

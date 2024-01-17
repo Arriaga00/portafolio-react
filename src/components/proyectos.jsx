@@ -26,7 +26,7 @@ export const Proyectos = () => {
                 <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={PrimerPortafolio} />
         </a>
           <div className="flex-grow sm:pl-8">
-            <h2 className="title-font font-medium text-lg text-gray-900 font-bold dark:text-[#eaebf1]">Primer Portafolio 📃</h2>
+            <h2 className="title-font fontMedium text-lg text-gray-900 font-bold dark:text-[#eaebf1]">Primer Portafolio 📃</h2>
             <h3 className="text-gray-500 mb-3 dark:text-[#eaebf1]">UI Developer</h3>
             <p className="mb-4 dark:text-[#eaebf1]">Es el primer portafolio que decidi a realizar para aventarme a este mundo de la programacion.</p>
             <span className="inline-flex">
@@ -47,7 +47,7 @@ export const Proyectos = () => {
                 <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={Cine} />
             </a>
           <div className="flex-grow sm:pl-8">
-            <h2 className="title-font font-medium text-lg text-gray-900 font-bold dark:text-[#eaebf1]">My Cine</h2>
+            <h2 className="title-font fontMedium text-lg text-gray-900 font-bold dark:text-[#eaebf1]">My Cine</h2>
             <h3 className="text-gray-500 mb-3 dark:text-[#eaebf1]">Designer</h3>
             <p className="mb-4 dark:text-[#eaebf1]">Creando una interfaz simulada de una cartelera de cine 🎥.. 
             <br /> Consumo de Api Disney

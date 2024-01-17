@@ -1,31 +1,26 @@
-import './App.css'
-import NavBar from './components/navBar'
-import Perfil from './components/perfil'
-import RedesSociales from './components/redesSociales'
-import Proyectos from './components/proyectos'
-import Habilidades from './components/habilidades'
-import Academico from './components/academico'
-import Contacto from './components/contacto'
-import Pie from './components/pie'
-import { useState } from 'react'
-import ModalAcercaDeMi from './components/modalAcercaDeMi'
-
+import "./App.css";
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
+import Servicio from "./pages/servicios";
+import PaginaPrincipal from "./pages/paginaPrincipal";
+import NavBar from "./components/navBar";
+import { useState } from "react";
+import ModalAcercaDeMi from "./components/modalAcercaDeMi";
 
 function App() {
-  const [abrirModal ,setAbrirModal] = useState(false)
+  const [abrirModal, setAbrirModal] = useState(false);
   return (
     <>
-    <NavBar setAbrirModal={setAbrirModal}/>
-    <Perfil/>
-    <RedesSociales />
-    <Proyectos/>
-    <Habilidades/>
-    <Academico/>
-    <Contacto/>
-    <Pie/>
-    <ModalAcercaDeMi setAbrirModal={setAbrirModal} abrirModal={abrirModal} />
+      <Router>
+        <NavBar setAbrirModal={setAbrirModal} />
+        <ModalAcercaDeMi setAbrirModal={setAbrirModal} abrirModal={abrirModal} />
+        <Routes>
+          <Route path="/" element={<PaginaPrincipal />} />
+          <Route path="/servicio" element={<Servicio />} />
+          <Route path="*" element={<Navigate to="/" />} />
+        </Routes>
+      </Router>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
