@@ -5,6 +5,7 @@ import PaginaPrincipal from "./pages/paginaPrincipal";
 import NavBar from "./components/navBar";
 import { useState } from "react";
 import ModalAcercaDeMi from "./components/modalAcercaDeMi";
+import Pie from "./components/pie";
 
 function App() {
   const [abrirModal, setAbrirModal] = useState(false);
@@ -18,6 +19,7 @@ function App() {
           <Route path="/servicio" element={<Servicio />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
+        <Pie/>
       </Router>
     </>
   );
