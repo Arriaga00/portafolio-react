@@ -14,13 +14,13 @@ const Academico = () => {
                 <div className=" pulsing-dot flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-[#30be93] dar  ">
                   <DetalleAcademico titulo={'Analisis y desarrollo de software'} color={'text-xs tracki uppercase text-[#30bf93]'} descripcion={'La Tecnologia me prepara para ser un profesional capaz de diseñar, desarrollar y mantener software que satisfaga las necesidades de los usuarios'} tiempo={'Cursando'}/>
                 </div>
-                <div className="pulsing-dot flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-[#30be93] ">
+                <div className="pulsing-dot flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px]  before:bg-[#30be93] ">
                    <DetalleAcademico titulo={'Bootcamp Enyoi'} tiempo={'Cursando'} color={'text-xs tracki uppercase text-[#30bf93]'} descripcion={'Un Full Stack Developer es un profesional que trabaja tanto en el desarrollo front-end como en el back-end. Son responsables de diseñar, desarrollar y mantener plataformas completamente funcionales con bases de datos o servidores. Estos servidores no necesitan otras aplicaciones de terceros para construir un sistema completo desde cero.'}/>
                 </div>
-                <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-[#1fb4ff]">
+                <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px]  before:bg-[#1fb4ff]">
                    <DetalleAcademico titulo={'Ingenieria Mecatronica'} color={'text-xs tracki uppercase text-[#56b1f9]'} descripcion={'Tecnologico metropolitano: 3 semestres certificables'} tiempo={'Truncado'}/>
                 </div>
-                <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-[#1fb4ff]">
+                <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px]  before:bg-[#1fb4ff]">
                    <DetalleAcademico titulo={'Gestion del talento humano'} color={'text-xs tracki uppercase text-[#56b1f9]'} descripcion={'Fenicia: Educacion media certificable'} tiempo={'Finalizado'}/>
                 </div>
               </div>
