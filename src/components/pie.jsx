@@ -1,11 +1,11 @@
 const Pie = () => {
   return (
     <>
-      <footer className="bg-gray-100 dark:bg-[#131825]  ">
+      <footer className="bg-gray-100 dark:bg-[#131825] mt-20 ">
         <div className="relative mx-auto max-w-screen-xl px-4 pb-5 sm:px-6 lg:px-8 lg:pt-3 dark:bg-[#131825] dark:border-[#26304b] dark:border-2 rounded-lg border-2 ">
           <div className="lg:flex lg:items-end lg:justify-between">
             <div>
-              <div className="flex justify-center gap-3 text-teal-600 lg:justify-start">
+              <div className="flex justify-center gap-3 text-teal-600 lg:justify-start pt-4">
                 <img
                   src="https://i.ibb.co/zFYKcSC/adios.png"
                   alt="adios"
