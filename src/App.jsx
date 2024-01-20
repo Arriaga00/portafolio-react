@@ -16,7 +16,7 @@ function App() {
         <ModalAcercaDeMi setAbrirModal={setAbrirModal} abrirModal={abrirModal} />
         <Routes>
           <Route path="/" element={<PaginaPrincipal />} />
-          <Route path="/servicio" element={<Servicio />} />
+          <Route path="/conocimiento" element={<Servicio />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Pie/>

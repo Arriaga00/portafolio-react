@@ -26,12 +26,12 @@ function NavBar({setAbrirModal}){
       <>
           <header className="text-gray-600 body-font   ">
               <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
-                <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <NavLink to={'/'} className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 cursor-pointer">
                   <span className=" text-3xl titulo text-[#b56492] font-bold ">&lt;Portafolio /&gt; </span>
-                </a>
+                </NavLink>
                   <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
                     <a className={colorYHover} onClick={()=> setAbrirModal(true)}>Acerca de mi</a>
-                    <NavLink to='/servicio' className={colorYHover}>Conocimiento</NavLink>
+                    <NavLink to='/conocimiento' className={colorYHover}>Conocimiento</NavLink>
                   </nav>
                 <button className=" items-center bg-gray-200 border-0 py-1 px-3 text-[#4d6cbc] focus:outline-none hover:bg-[#a0a1a5] rounded-full text-base mt-4 md:mt-0 hover:text-[#4d6cbc] transition ease-in-out duration-300 dark:bg-[#26304b] dark:hover:bg-[#3c496f]" onClick={modoTema}>
                   <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
