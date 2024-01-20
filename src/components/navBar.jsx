@@ -31,7 +31,7 @@ function NavBar({setAbrirModal}){
                 </a>
                   <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
                     <a className={colorYHover} onClick={()=> setAbrirModal(true)}>Acerca de mi</a>
-                    <NavLink to='/servicio' className={colorYHover}>Servicios</NavLink>
+                    <NavLink to='/servicio' className={colorYHover}>Conocimiento</NavLink>
                   </nav>
                 <button className=" items-center bg-gray-200 border-0 py-1 px-3 text-[#4d6cbc] focus:outline-none hover:bg-[#a0a1a5] rounded-full text-base mt-4 md:mt-0 hover:text-[#4d6cbc] transition ease-in-out duration-300 dark:bg-[#26304b] dark:hover:bg-[#3c496f]" onClick={modoTema}>
                   <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
