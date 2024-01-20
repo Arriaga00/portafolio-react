@@ -46,10 +46,8 @@ const ModalAcercaDeMi = ({ abrirModal, setAbrirModal }) => {
               Acerca de mi.
             </h2>
             <p className="flex-1 text-start dark:text-[#eaebf1]">
-              Soy apasionado por la tecnología desde que tenía 18 años.
               Actualmente tengo 23 años y estoy estudiando  análisis y desarrollo
-              de software en el Sena, una institución que ofrece programas de
-              formación técnica y tecnológica. Me gusta aprender y escuchar a
+              de software en el Sena, <span className="bg-[#23293c] px-1 rounded-lg text-[#e4b842]">Tecnologo</span>. Me gusta aprender y escuchar a
               las personas que han logrado lo que yo quiero ser. Un buen
               programador y poder ayudar a personas con mi conocimiento. 
               <br />

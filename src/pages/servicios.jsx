@@ -9,11 +9,11 @@ const Servicio = () => {
         <div className="flex w-full pl-5 h-32 justify-start items-end">
           <NavLink
             to="/inicio"
-            className=" w-12  h-8 flex justify-center items-center hover:scale-110 transition ease-in-out duration-300"
+            className=" w-12  h-8 flex justify-center items-center hover:scale-110 transition ease-in-out duration-300 "
           >
             <FontAwesomeIcon
               icon={faArrowLeftLong}
-              className="dark:text-white text-2xl"
+              className="dark:text-white text-2xl hover:text-[#192c76]"
             />
           </NavLink>
           <div className="w-1/2  flex justify-end">

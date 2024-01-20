@@ -20,7 +20,7 @@ html{
 
   @layer base {
     .titulo {
-      @apply font-bangers tracking-widest whitespace-nowrap overflow-hidden border-r-2;
+      @apply tracking-widest whitespace-nowrap overflow-hidden ;
       border-color: currentColor;
       animation: typing 1s steps(40) 1s 1 normal both, blink 1s 3 steps(1);
     }
@@ -51,7 +51,7 @@ html{
 
   @media (min-width: 640px) {
     .pulsing-dot::before {
-      animation: pulse 1s infinite;
+      animation: pulse 2s infinite;
     }
   }
 

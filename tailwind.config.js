@@ -9,9 +9,7 @@ export default {
   darkMode: 'class',
   theme: {
     extend: {
-      fontFamily: {
-        'bangers': ['Bangers', 'sans-serif'],
-      },
+
     },
   },
   plugins: [],
