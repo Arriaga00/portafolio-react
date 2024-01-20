@@ -13,15 +13,13 @@ function Perfil() {
             Hey, soy arriaga
           </h1>
           <p className="text-black pb-2 font-bold text-lg dark:text-[#eaebf1] ">
-            {" "}
-            <span className="text-[#f26c64]"> Front end</span> |{" "}
-            <span className="text-[#edb614]">Back end</span>
+            <span className="text-[#f26c64]"> Front end</span> |
+            <span className="text-[#edb614]"> Back end</span>
           </p>
           <p className="mb-3 leading-relaxed text-[#24282f] dark:text-[#f5f5f5] ">
-            {" "}
             Mi misión es utilizar mis habilidades técnicas y creatividad para
             desarrollar soluciones web innovadoras que impulsen el crecimiento y
-            el éxito de las empresas. <span className="bg-[#122b6f] text-white py-1 px-2 rounded-md ">Disponible para trabajar</span>
+            el éxito de las empresas. <span className="bg-[#00826a]  text-white py-1 px-2 rounded-md ">Disponible para trabajar</span>
           </p>
         </div>
       </div>

@@ -39,7 +39,7 @@ const Servicio = () => {
         </section>
         <div className="flex w-full  pt-20 flex-wrap justify-center pb-9 ">
           <h2 className="text-4xl font-bold text-[#9dbeff] flex justify-center">
-            Tecnologias
+            Conocimeintos
           </h2>
         </div>
         <section className="flex  flex-wrap">
