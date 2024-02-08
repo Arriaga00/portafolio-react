@@ -27,7 +27,7 @@ function NavBar({setAbrirModal}){
           <header className="text-gray-600 body-font   ">
               <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
                 <NavLink to={'/'} className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 cursor-pointer">
-                  <span className=" text-3xl titulo text-[#b56492] font-bold ">&lt;Portafolio /&gt; </span>
+                  <span className=" text-4xl titulo text-[#b56492] font-bold ">&lt;Portafolio /&gt; </span>
                 </NavLink>
                   <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
                     <a className={colorYHover} onClick={()=> setAbrirModal(true)}>Acerca de mi</a>
