@@ -24,7 +24,7 @@ function NavBar({setAbrirModal}){
   const colorYHover = "mr-5 text-black font-semibold cursor-pointer border-solid border-transparent hover:text-[#cf5d57] hover:text-red-500 hover:border-b-2 hover:border-red-500 hover:-translate-y-1 transition ease-in-out duration-200 dark:text-[#f5f5f5]"
     return (
       <>
-          <header className="text-gray-600 body-font   ">
+          <header className="bg-[rgba(255,255,255,0.1)] backdrop-blur-[4px]   rounded shadow-lg z-30 fixed right-0 left-0 top-0" >
               <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
                 <NavLink to={'/'} className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 cursor-pointer">
                   <span className=" text-4xl titulo text-[#b56492] font-bold ">&lt;Portafolio /&gt; </span>

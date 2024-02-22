@@ -16,28 +16,9 @@ const Servicio = () => {
               className="dark:text-white text-2xl hover:text-[#192c76]"
             />
           </NavLink>
-          <div className="w-1/2  flex justify-end">
-            <h2 className="text-4xl font-bold text-[#9dbeff]">Servicios</h2>
-          </div>
         </div>
-        <section className="flex w-full  pt-10 flex-wrap">
-          <CardServicios
-            nombre={"Desarrollo de interfaces de usuario"}
-            descripcion={"UI/UX"}
-            img={"https://i.ibb.co/7STp4G3/figma-macos-bigsur-icon-190183.png"}
-          />
-          <CardServicios
-            nombre={"UI Diseño responsivo"}
-            descripcion={"PC, Tables, Movil"}
-            img={"https://i.ibb.co/4Vt3hF3/1485476108-artboard-1-78541.png"}
-          />
-          <CardServicios
-            nombre={"Pruebas y depuración"}
-            descripcion={"Rendimiento"}
-            img={"https://i.ibb.co/pnSMQFB/debug-icon-214412.png"}
-          />
-        </section>
-        <div className="flex w-full  pt-20 flex-wrap justify-center pb-9 ">
+
+        <div className="flex w-full   flex-wrap justify-center pb-9 ">
           <h2 className="text-4xl font-bold text-[#9dbeff] flex justify-center">
             Conocimeintos
           </h2>
@@ -78,11 +59,6 @@ const Servicio = () => {
             img={"https://i.ibb.co/377gwn2/vitejs.png"}
           />
           <CardServicios
-            nombre={"Node js"}
-            descripcion={""}
-            img={"https://i.ibb.co/HXhGJ6Q/R.png"}
-          />
-          <CardServicios
             nombre={"Git"}
             descripcion={"Manejo de versiones"}
             img={"https://i.ibb.co/fN1Jjz6/git-icon-130933.png"}
@@ -110,6 +86,11 @@ const Servicio = () => {
             nombre={"Mongo DB"}
             descripcion={"Base de datos no relacional"}
             img={"https://i.ibb.co/GVhXm0b/file-type-mongo-icon-130383.png"}
+          />
+            <CardServicios
+            nombre={"Node js"}
+            descripcion={""}
+            img={"https://i.ibb.co/HXhGJ6Q/R.png"}
           />
         </section>
       </div>
