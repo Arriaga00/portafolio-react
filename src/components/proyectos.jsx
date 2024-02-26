@@ -17,7 +17,7 @@ export const Proyectos = () => {
       <section className="text-gray-600 body-font">
   <div className="container px-5 py-5 mx-auto mb-10">
     <div className="flex flex-wrap -m-4 gap-x-5 gap-y-5 justify-center">
-        {/* Card primer portafolio*/}
+        {/* Card primer Custom gamin*/}
       <div className="p-4 lg:w-2/5 border-2  border-[#d2d5da] dark:border-[#26304b] rounded-lg m-1 hover:scale-105 transition ease-in-out duration-300 ">
         <div className="h-full flex gap-3 sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
         <a href="https://custom-gaming.vercel.app/" className='flex-shrink-0  w-48 h-48 sm:mb-0 mb-4 cursor-pointer'>

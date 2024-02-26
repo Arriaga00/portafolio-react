@@ -1,4 +1,4 @@
-import Cv from "../assets/cv.pdf";
+import Cv from "../assets/arriagadev.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Acerca from "../assets/acerca.png";
 import { useState, useEffect } from "react";
