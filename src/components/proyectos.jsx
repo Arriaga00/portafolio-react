@@ -3,7 +3,7 @@ import Tailwin from '../assets/tailwind.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3Alt, faHtml5, faJs, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons';
 import Separador from './separador';
-
+import Gamin from '../assets/postgamin.png'
 
 
 
@@ -21,7 +21,7 @@ export const Proyectos = () => {
       <div className="p-4 lg:w-2/5 border-2  border-[#d2d5da] dark:border-[#26304b] rounded-lg m-1 hover:scale-105 transition ease-in-out duration-300 ">
         <div className="h-full flex gap-3 sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
         <a href="https://custom-gaming.vercel.app/" className='flex-shrink-0  w-48 h-48 sm:mb-0 mb-4 cursor-pointer'>
-                <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src='https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_Cf6yNoYFvLz4Yw8afTp2uxevjxZY%26teamId%3Dandres-arriagas-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_F1GWNVJiC5Mzy74zbtZ8dfQ1zFNS' />
+                <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={Gamin} />
         </a>
           <div className="flex-grow ">
             <h2 className="title-font fontMedium text-lg text-gray-900 font-bold dark:text-[#eaebf1] pb-2">Tienda online</h2>
